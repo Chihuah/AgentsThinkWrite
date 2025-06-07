@@ -124,6 +124,7 @@ This repository documents the conceptual prototype of a **Multi-Agent AI System*
 5. 完成製作，即可在 ChatGPT 中啟用
 
 > **備註1：** 上述GPT RoleFactoryAgent（角色生成工廠）生成範例之結果，如 [example.md](./example.md)
+
 > **備註2：** 上述GPT已經建立完成，可到[RoleFactoryAgent（角色生成工廠）](https://chatgpt.com/g/g-68424d2082f88191be83bb75ed65599d-rolefactoryagent-jiao-se-sheng-cheng-gong-chang)試用。
 
 ## 流程圖（Mermaid 格式）
