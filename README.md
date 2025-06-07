@@ -3,9 +3,12 @@
 ![Status](https://img.shields.io/badge/status-prototype_concept-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
-This repository documents the conceptual prototype of a **Multi-Agent AI System** designed for generating complex, high-quality documents, starting with grant proposals. The system is inspired by the collaborative dynamics of a human expert team.
+## 🔍 Project Overview | 專案簡介
+**AgentsThinkWrite** is a prototype tool that demonstrates how a multi-agent prompt workflow can assist in drafting complex documents—specifically research or grant proposals—using GPT-based role coordination.
 
-這是一個關於「多 Agent AI 合作寫作流程」的實驗性原型。本頁面旨在展示一套利用大型語言模型（如 ChatGPT）的 **Prompt 設計模式**，來定義並區分不同 AI Agent 的角色與任務，並讓它們依序執行寫作、整合、審閱的協作過程。當中包含了建立並使用ChatGPT中的自訂GPT以及多開對話的操作。
+This project explores a modular approach to AI-assisted writing, where each agent (Ideator, Experts, Synthesizer, Reviewer) performs a specific function in the planning, drafting, integration, and reviewing stages. Prompts are generated automatically based on user inputs (topic, agency, summary) and organized into a coherent multi-role writing process. This README documents the conceptual prototype of a **Multi-Agent AI System** designed for generating complex, high-quality documents, starting with grant proposals. The system is inspired by the collaborative dynamics of a human expert team.
+
+**AgentsThinkWrite** 是一套多角色 AI 寫作輔助工具原型，展示如何運用 GPT 進行計畫書的構思、章節撰寫、整併與審核流程。使用者只需輸入主題與申請單位，即可自動生成各角色的提示詞，完成類似多人協作的文本生產流程。本頁面旨在說明這套利用大型語言模型（如 ChatGPT）的 **Prompt 設計模式**，來定義並區分不同 AI Agent 的角色與任務，並讓它們依序執行寫作、整合、審閱的協作過程。當中包含了建立並使用ChatGPT中的自訂GPT以及多開對話的操作。
 
 ## 核心概念 (The Core Concept)
 
