@@ -69,7 +69,7 @@ This repository documents the conceptual prototype of a **Multi-Agent AI System*
 5.  **統整成稿 (Synthesize)**：開啟新的對話視窗，貼上 `SynthesizerAgent` 的 Prompt，然後將所有專家的產出內容一次性貼上，讓它整合成一份完整文稿。
 6.  **審核與修正 (Review & Refine)**：最後，開啟新的對話視窗，貼上 `ReviewerAgent` 的 Prompt，並將 `SynthesizerAgent` 產出的完整文稿交給它審查，根據其回饋進行最終修改。
 
-## 建立工廠 -- 如何在 ChatGPT Custom GPTs 裡設計 RoleFactoryAgent**
+## 建立工廠 -- 如何在 ChatGPT Custom GPTs 裡設計 RoleFactoryAgent
 
 ### 步驟指南
 1. 進入 [https://chat.openai.com/gpts](https://chat.openai.com/gpts)
@@ -123,7 +123,8 @@ This repository documents the conceptual prototype of a **Multi-Agent AI System*
 4. 點按更新，並設定分享模式
 5. 完成製作，即可在 ChatGPT 中啟用
 
-> **備註：** 上述GPT RoleFactoryAgent（角色生成工廠）生成範例之結果，如 [example.md](./example.md)
+> **備註1：** 上述GPT RoleFactoryAgent（角色生成工廠）生成範例之結果，如 [example.md](./example.md)
+> **備註2：** 上述GPT已經建立完成，可到[RoleFactoryAgent（角色生成工廠）](https://chatgpt.com/g/g-68424d2082f88191be83bb75ed65599d-rolefactoryagent-jiao-se-sheng-cheng-gong-chang)試用。
 
 ## 流程圖（Mermaid 格式）
 
